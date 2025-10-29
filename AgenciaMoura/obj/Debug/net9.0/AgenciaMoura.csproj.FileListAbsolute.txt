@@ -12,3 +12,4 @@ C:\Users\63011197385\Desktop\back_end_moura\AgenciaMoura\obj\Debug\net9.0\refint
 C:\Users\63011197385\Desktop\back_end_moura\AgenciaMoura\obj\Debug\net9.0\AgenciaMoura.pdb
 C:\Users\63011197385\Desktop\back_end_moura\AgenciaMoura\obj\Debug\net9.0\AgenciaMoura.genruntimeconfig.cache
 C:\Users\63011197385\Desktop\back_end_moura\AgenciaMoura\obj\Debug\net9.0\ref\AgenciaMoura.dll
+C:\Users\63011197385\Desktop\back_end_moura\AgenciaMoura\obj\Debug\net9.0\AgenciaMoura.sourcelink.json
