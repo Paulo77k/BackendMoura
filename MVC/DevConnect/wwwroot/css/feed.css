@@ -1,0 +1,200 @@
+main {
+    
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-flex-publi {
+  
+    height: 700px;
+    width: 90px;
+    max-width: 900px;
+
+}
+
+.container-flex-publi {
+    width: 90%;
+
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+
+#stories {
+    
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    gap: 30px;
+
+}
+
+#stories::-webkit-scrollbar {
+    width: 0;
+}
+
+.card-storie {
+    
+    border: 3px;
+    border-color: black;
+}
+
+.card-storie>button {
+    background-color: transparent;
+    border: none;
+
+    font-size: var(--tamanho-fonte-sm);
+    color: 00000;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+
+}
+
+.card-storie>button>img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.formulario-botao-cadastre-se {
+    width: 150px;
+}
+
+#criar-publi {
+    padding: 10px;
+}
+
+#criar-publi>h2 {
+    color: rgb(0, 0, 0);
+    font-size: var(--tamanho-fonte-lg);
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+
+#criar-publi>form>textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+
+    resize: none;
+    border: 2px;
+    margin-bottom: 20px;
+
+    color: black;
+
+}
+
+#criar-publi>form>footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+
+}
+
+#criar-publi>form>textarea::placeholder {
+    color: rgba(94, 91, 91, 0.358);
+}
+
+#publicacoes {
+    
+    width: 100%;
+
+
+}
+
+.card-publi {
+    
+    width: 100%;
+}
+
+.card-publi>header>button>img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    
+
+}
+
+.card-publi>header>button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-transform: lowercase;
+    column-gap: 10px;
+}
+.imagem-publicacao{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 410px;
+
+}
+.card-publi> figure>figcaption{
+    color: black;
+    font-size: var(--tamanho-fonte-md);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin: 15px;
+    
+    
+
+}
+.descricao-publicacao{
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 400;
+}
+.interacoes-publicacao{
+    display: flex;
+    width: 88px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 1;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+.interacoes-publicacao > button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.card-publi > figure > button{
+    background-color: transparent;
+    border: none;
+
+    color: rgba(61, 68, 74, 0.385);
+    font-size: var(--tamanho-fonte-sm);
+    order: 3;
+
+    margin-left: 15px;
+}
+.card-publi > figure {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}

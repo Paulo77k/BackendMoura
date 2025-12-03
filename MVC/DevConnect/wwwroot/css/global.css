@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+  font-family: Billabong;
+  src: url('https://path-to-your-font/Billabong.woff2') format('woff2'),
+    url('https://path-to-your-font/Billabong.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --cor-preto: #000000;
+  --cor-marrom: #382E23;
+  --cor-vermelho-escuro: #6F1D1B;
+  --cor-salmao: #FFEBDF;
+  --cor-semibranca: #F9F4F1;
+  --borda: 1px solid var(--cor-marrom);
+  --borda-arredondada: 2px;
+
+  --tamanho-fonte-lg: 20px: --tamanho-fonte-md: 16px;
+  --tamanho-fonte-sm: 14px;
+}
+
+body {
+
+  background-color: var(--cor-semibranca);
+
+
+}
+
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  outline-color: rgba(0, 0, 255, 0.488);
+
+}
+
+h1 {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+
+
+
+
+
+}
+
+
+.formulario-botao-azul {
+  background-color: blue;
+  border-radius: var(--borda-arrendondada);
+  height: 35px;
+
+  color: aliceblue;
+  font-size: var(--tamanho-fonte-sm);
+  border: none;
+
+}
+
+.formulario-campos>input {
+  border: var(--borda);
+  height: 35px;
+  background-color: #ffffffeb;
+
+  color: #837f7dad;
+  font-size: var(--tamanho-fonte-sm);
+  border-radius: var(--borda-arredondada);
+}
+
+.formulario-campos>label {
+  font-size: var(--tamanho-fonte-sm);
+  color: rgba(149, 151, 152, 0.707);
+  font-weight: 600;
+}
+
+.estilo-formulario {
+  background-color: rgba(56, 126, 216, 0.416);
+  border: var(--borda);
+  width: 100%;
+
+
+}
+
+#campo-upload {
+  display: none;
+
+}
+
+#texto-upload {
+  display: inline-block;
+  width: 300px;
+  background-color: rgba(113, 119, 123, 0.525);
+  border-radius: 2px;
+  color: rgba(80, 80, 207, 0.708);
+  border-radius: 3px;
+  height: 35px;
+  padding: 5px;
+  font-weight: 500;
+
+}
+
+
+#cabecalho {
+  background-color: #ffffff;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  border-bottom: var(--borda);
+}
+
+#cabecalho>nav {
+
+  width: 85%;
+  max-width: 900px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.cabecalho-acoes {
+
+  display: flex;
+  align-items: center;
+
+  gap: 15PX;
+
+}
+
+.cabecalho-acoes>a {
+  display: flex;
+  align-items: center;
+
+}
+
+#foto-perfil {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+#logo-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  #logo-mobile {
+    display: initial;
+  }
+
+  #logo-desktop {
+    display: none;
+  }
+}

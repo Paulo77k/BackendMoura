@@ -1,0 +1,90 @@
+main{
+
+    
+   min-height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main>div {
+
+ background-color: rgba(81, 81, 214, 0.459);
+width: 90%;
+max-width: 400px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+gap: 25px;  
+}
+
+form{
+background-color: rgba(91, 182, 198, 0.615); 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 15px;
+padding: 3%,;
+}
+
+#secao-cadastro{
+
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.estilo-formulario{
+  
+    max-width: 342px;
+    
+}
+main > div > p{
+ 
+color: rgb(0, 0, 0);
+font-size: var(--tamanho-fonte-sm);
+
+}
+
+#secao-instalacao{
+background-color: rgb(252, 252, 252);
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
+}
+.formulario-campos {
+display: flex;
+flex-direction: column;
+width: 100%;
+gap: 5px;
+padding: 5px;
+
+
+}
+.formulario-botao-azul{
+    width: 100%;
+}
+
+form>p{
+  text-transform: uppercase;  
+  color: rgba(153, 158, 163, 0.849);
+  font-size: var(--tamanho-fonte-sm);
+}
+form > a, #secao-cadastro > p > a {
+color: blue;
+font-size: var(--tamanho-fonte-sm);
+text-decoration: none;
+
+}
+#secao-cadastro > p{
+color: black;
+font-size: var(--tamanho-fonte-md);
+}
+ 
+

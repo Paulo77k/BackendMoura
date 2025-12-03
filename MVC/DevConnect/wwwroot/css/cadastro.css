@@ -1,0 +1,56 @@
+main{
+background-color: rgba(161, 175, 188, 0.526);
+display: flex;
+justify-content: center;
+align-items: center;
+
+width: 100%;
+min-height: 100vh;
+}
+main > div {
+background-color: rgba(157, 166, 174, 0.603);
+width: 70%;
+max-width: 400%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+padding: 10px;
+border: 2px;
+}
+form{
+background-color: rgba(77, 87, 96, 0.286);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+
+}
+    .formulario-botao-cadastre-se{
+display: flex;
+align-items: center;
+flex-direction: column;
+
+
+color: rgba(255, 255, 255, 0.786);
+background-color: rgba(1, 140, 255, 0.796);
+
+
+
+    }
+    main > div > p {
+color: black;
+font-size: var(--tamanho-fonte-sm);
+    
+    }
+
+#secao-conecte-se {
+    height: 60px;
+    color: rgba(81, 84, 87, 0.626);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
